@@ -12,9 +12,12 @@
 		0099611815F2AAA900CD78AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0099611715F2AAA900CD78AF /* CoreGraphics.framework */; };
 		0099611E15F2AAA900CD78AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0099611C15F2AAA900CD78AF /* InfoPlist.strings */; };
 		0099612015F2AAA900CD78AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099611F15F2AAA900CD78AF /* main.m */; };
-		0099612415F2AAA900CD78AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099612315F2AAA900CD78AF /* AppDelegate.m */; };
-		0099612715F2AAA900CD78AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099612615F2AAA900CD78AF /* ViewController.m */; };
-		0099612A15F2AAA900CD78AF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0099612815F2AAA900CD78AF /* ViewController.xib */; };
+		0099613A15F2AAED00CD78AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099613115F2AAED00CD78AF /* AppDelegate.m */; };
+		0099613B15F2AAED00CD78AF /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099613315F2AAED00CD78AF /* Cell.m */; };
+		0099613C15F2AAED00CD78AF /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099613515F2AAED00CD78AF /* CircleLayout.m */; };
+		0099613D15F2AAED00CD78AF /* PhotoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099613715F2AAED00CD78AF /* PhotoLayout.m */; };
+		0099613E15F2AAED00CD78AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099613915F2AAED00CD78AF /* ViewController.m */; };
+		0099614015F2AB1000CD78AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0099613F15F2AB1000CD78AF /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +29,17 @@
 		0099611D15F2AAA900CD78AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0099611F15F2AAA900CD78AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0099612115F2AAA900CD78AF /* CollectionViewLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectionViewLayout-Prefix.pch"; sourceTree = "<group>"; };
-		0099612215F2AAA900CD78AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0099612315F2AAA900CD78AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0099612515F2AAA900CD78AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0099612615F2AAA900CD78AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0099612915F2AAA900CD78AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0099613015F2AAED00CD78AF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0099613115F2AAED00CD78AF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0099613215F2AAED00CD78AF /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		0099613315F2AAED00CD78AF /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		0099613415F2AAED00CD78AF /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		0099613515F2AAED00CD78AF /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		0099613615F2AAED00CD78AF /* PhotoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoLayout.h; sourceTree = "<group>"; };
+		0099613715F2AAED00CD78AF /* PhotoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoLayout.m; sourceTree = "<group>"; };
+		0099613815F2AAED00CD78AF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0099613915F2AAED00CD78AF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0099613F15F2AB1000CD78AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0099614015F2AB1000CD78AF /* QuartzCore.framework in Frameworks */,
 				0099611415F2AAA900CD78AF /* UIKit.framework in Frameworks */,
 				0099611615F2AAA900CD78AF /* Foundation.framework in Frameworks */,
 				0099611815F2AAA900CD78AF /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +77,7 @@
 		0099611215F2AAA900CD78AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0099613F15F2AB1000CD78AF /* QuartzCore.framework */,
 				0099611315F2AAA900CD78AF /* UIKit.framework */,
 				0099611515F2AAA900CD78AF /* Foundation.framework */,
 				0099611715F2AAA900CD78AF /* CoreGraphics.framework */,
@@ -77,11 +88,16 @@
 		0099611915F2AAA900CD78AF /* CollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
-				0099612215F2AAA900CD78AF /* AppDelegate.h */,
-				0099612315F2AAA900CD78AF /* AppDelegate.m */,
-				0099612515F2AAA900CD78AF /* ViewController.h */,
-				0099612615F2AAA900CD78AF /* ViewController.m */,
-				0099612815F2AAA900CD78AF /* ViewController.xib */,
+				0099613015F2AAED00CD78AF /* AppDelegate.h */,
+				0099613115F2AAED00CD78AF /* AppDelegate.m */,
+				0099613215F2AAED00CD78AF /* Cell.h */,
+				0099613315F2AAED00CD78AF /* Cell.m */,
+				0099613415F2AAED00CD78AF /* CircleLayout.h */,
+				0099613515F2AAED00CD78AF /* CircleLayout.m */,
+				0099613615F2AAED00CD78AF /* PhotoLayout.h */,
+				0099613715F2AAED00CD78AF /* PhotoLayout.m */,
+				0099613815F2AAED00CD78AF /* ViewController.h */,
+				0099613915F2AAED00CD78AF /* ViewController.m */,
 				0099611A15F2AAA900CD78AF /* Supporting Files */,
 			);
 			path = CollectionViewLayout;
@@ -150,7 +166,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0099611E15F2AAA900CD78AF /* InfoPlist.strings in Resources */,
-				0099612A15F2AAA900CD78AF /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0099612015F2AAA900CD78AF /* main.m in Sources */,
-				0099612415F2AAA900CD78AF /* AppDelegate.m in Sources */,
-				0099612715F2AAA900CD78AF /* ViewController.m in Sources */,
+				0099613A15F2AAED00CD78AF /* AppDelegate.m in Sources */,
+				0099613B15F2AAED00CD78AF /* Cell.m in Sources */,
+				0099613C15F2AAED00CD78AF /* CircleLayout.m in Sources */,
+				0099613D15F2AAED00CD78AF /* PhotoLayout.m in Sources */,
+				0099613E15F2AAED00CD78AF /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,14 +194,6 @@
 				0099611D15F2AAA900CD78AF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0099612815F2AAA900CD78AF /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0099612915F2AAA900CD78AF /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

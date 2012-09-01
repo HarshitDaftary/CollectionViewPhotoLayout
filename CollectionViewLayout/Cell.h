@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UICollectionViewController
-@property (nonatomic, assign) NSInteger cellCount;
+@interface Cell : UICollectionViewCell
+@property (strong, nonatomic) UILabel* label;
+@property (strong, nonatomic) UIImageView *imageView;
 @end

@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UICollectionViewController
+@interface CircleLayout : UICollectionViewLayout
+
 @property (nonatomic, assign) NSInteger cellCount;
+@property (nonatomic, assign) CGFloat pinchedCellScale;
+@property (nonatomic, assign) CGPoint pinchedCellCenter;
+@property (nonatomic, strong) NSIndexPath* pinchedCellPath;
+
 @end

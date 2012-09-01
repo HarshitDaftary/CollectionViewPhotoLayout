@@ -1,9 +1,9 @@
 //
-//  AppDelegate.h
 //  CollectionViewLayout
 //
-//  Created by Devon on 2012-09-01.
+//  Created by Devon on 2012-07-09.
 //  Copyright (c) 2012 Devon. All rights reserved.
+//	https://github.com/fishpie
 //
 
 #import <UIKit/UIKit.h>
